@@ -1,0 +1,53 @@
+public class DrawFigures1 {
+    public static void main(String[] args) {
+    // The code was too long, it worked but it was longer then it should be
+    //Instead of having this big block of code I used the methos of decomposition to have 4 different methods
+    //Since the code was decomposed, The program takes 4 differents steps making it less complex and simple
+       Figure1();
+       Figure2();
+       Figure3();
+       Figure4();
+       }
+       //The first method is called Figures1 and it will display the code below
+       public static void Figure1() {
+        System.out.println("   /\\");
+        System.out.println("  /  \\");
+        System.out.println(" /    \\");
+        System.out.println(" \\    /");
+        System.out.println("  \\  /");
+        System.out.println("   \\/");
+        System.out.println();
+        }
+        //The second method is called Figures2 and it will display the code below
+        public static void Figure2(){
+        System.out.println(" \\    /");
+        System.out.println("  \\  /");
+        System.out.println("   \\/");
+        System.out.println("   /\\");
+        System.out.println("  /  \\");
+        System.out.println(" /    \\");
+        System.out.println();
+        }
+        //The third method is called Figures3 and it will display the code below
+        public static void Figure3(){
+        System.out.println("   /\\");
+        System.out.println("  /  \\");
+        System.out.println(" /    \\");
+        System.out.println("+------+");
+        System.out.println("|      |");
+        System.out.println("|      |");
+        System.out.println("+------+");
+        System.out.println("|United|");
+        System.out.println("|States|");
+        System.out.println("+------+");
+        System.out.println("|      |");
+        System.out.println("|      |");
+        System.out.println("+------+");
+        }
+        //The fourth method is called Figures4 and it will display the code below
+        public static void Figure4(){
+        System.out.println("   /\\");
+        System.out.println("  /  \\");
+        System.out.println(" /    \\");
+    }
+}
