@@ -4,8 +4,8 @@ public class DrawFigures1 {
        Figure2();
        Figure3();
        Figure4();
-       
-       Public static void Figure1() {
+       }
+       public static void Figure1() {
         System.out.println("   /\\");
         System.out.println("  /  \\");
         System.out.println(" /    \\");
@@ -14,7 +14,7 @@ public class DrawFigures1 {
         System.out.println("   \\/");
         System.out.println();
         }
-        Public static void Figure2(){
+        public static void Figure2(){
         System.out.println(" \\    /");
         System.out.println("  \\  /");
         System.out.println("   \\/");
@@ -23,7 +23,7 @@ public class DrawFigures1 {
         System.out.println(" /    \\");
         System.out.println();
         }
-        Public static void Figure3(){
+        public static void Figure3(){
         System.out.println("   /\\");
         System.out.println("  /  \\");
         System.out.println(" /    \\");
@@ -38,7 +38,7 @@ public class DrawFigures1 {
         System.out.println("|      |");
         System.out.println("+------+");
         }
-        Public static void Figure4(){
+        public static void Figure4(){
         System.out.println("   /\\");
         System.out.println("  /  \\");
         System.out.println(" /    \\");
